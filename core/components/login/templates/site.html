@@ -5,10 +5,12 @@
   <ion-content id="mm-login-site" mm-state-class>
       <div class="list">
         <div class="item item-text-wrap">{{ 'mm.login.newsitedescription' | translate }}</div>
-                  <label class="item item-input item-stacked-label">
-                                  <span class="label">{{ 'mm.login.siteaddress' | translate }}</span>
-            <input type="url" value="kurz.domluvimseanglicky.cz" ng-model="siteurl" mm-auto-focus >
-          </label>
+            <label
+            
+            <label>kurz.domluvimseanglicky.cz <input type="url" ng-model="siteurl">
+            </label>
+          
+          
           <div class="padding">
                <button class="button button-block" ng-click="connect(siteurl)">{{ 'mm.login.connect' | translate }}</button>
 
