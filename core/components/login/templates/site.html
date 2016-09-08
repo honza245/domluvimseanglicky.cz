@@ -7,10 +7,10 @@
         <div class="item item-text-wrap">{{ 'mm.login.newsitedescription' | translate }}</div>
                   <label class="item item-input item-stacked-label">
             <span class="input-label">{{ 'mm.login.siteaddress' | translate }}</span>
-            <input type="url" placeholder="kurz.domluvimseanglicky.cz" ng-model="siteurl" mm-no-input-validation mm-auto-focus >
+            <input type="url" placeholder="kurz.domluvimseanglicky.cz" ng-model="siteurl" mm-auto-focus >
           </label>
           <div class="padding">
-               <button class="button button-block" ng-click="connect(siteurl)" ng-disabled="!siteurl">{{ 'mm.login.connect' | translate }}</button>
+               <button class="button button-block" ng-click="connect(https://kurz.domluvimseanglicky.cz)" ng-disabled="connect(https://kurz.domluvimseanglicky.cz)">{{ 'mm.login.connect' | translate }}</button>
 
               <!-- <input type="submit" class="button button-block" value="{{ 'mm.login.connect' | translate }}" > -->
           </div>
